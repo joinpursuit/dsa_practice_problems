@@ -3,18 +3,7 @@ function myEach(callback, array) {
   for(let i = 0; i < array.length; i++) {
     output.push(callback(array[i]))
   }
-let output = []
-array.forEach(callback(el){does something to the element})
 
-  return output
-}
-
-
-function createHTMLlink(href, innerHTML){
-  let output = document.createElement('a')
-  output.setAttribute('href', href)
-  output.innerHTML = innerHTML
-  return output
 }
 
 function Stack() {

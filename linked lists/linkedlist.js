@@ -51,6 +51,7 @@ function countChars(str) {
   }
   return output
 }
+
 function findUniq(arr) {
   var count = {}
   // count = {1: 2, 2: 2, 3: 2, 4: 2, 5: 1}
@@ -123,20 +124,6 @@ function rubenGil(node, val) {
   return node
 }
 
-rubenGil(linkedlist, 3)
-
-rubenGil(1, 3)
-  (1) =>  rubenGil(2, 3)
-    (2) => rubenGil(3, 3)
-      (4)
-'abc'
-'def'
-'adbecf'
-
-combineString('abc', 'def', output)
-combineString('bc', 'ef', "ad")
-combineString('c', 'f', "adbe")
-combineString('', '', "adbecf")
 
 function combineStrings(a, b) {
   if (a.length === 0 || b.length === 0) {
@@ -146,14 +133,7 @@ function combineStrings(a, b) {
   }
 }
 
-combineStrings('charles', 'nathan')
-  'c' + 'n' +
-    'h' + 'a' +
-      'a' + 't' + combineStrings(rles, han)
 
-
-
-combineStrings('charles', "nathan")
 
 function Node(val) {
   this.value = val;

@@ -1,3 +1,9 @@
+# Question
+Write a function `makeChange` that receives an amount and an array of coin values. The function should return the number of ways you can make the amount using the coin values given.
+
+# Answer
+Solution One
+```js
 var usCoins = [25, 10, 5, 1]
 
 function makeChange(amt, coins) {
@@ -19,5 +25,5 @@ function makeChange(amt, coins) {
   }
 }
 
-
 console.log(makeChange(30, usCoins))
+```
